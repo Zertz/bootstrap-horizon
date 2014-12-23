@@ -3,7 +3,7 @@ bootstrap-horizon
 Boostrap 3 rows with horizontal overflow
 
 Example
-=======
+-------
 
 This `.well` fills the viewport and has a `.row.row-horizon` inside with a bunch of `.col-*-6`.
 
