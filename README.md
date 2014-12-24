@@ -7,7 +7,7 @@ Example
 
 This `.well` fills the viewport and has a `.row.row-horizon` inside with a bunch of `.col-*-6`.
 
-![Overflowing well](https://raw.githubusercontent.com/FluidApps/bootstrap-horizon/master/screenshots/1.png)
+![Overflowing well](https://raw.githubusercontent.com/FluidApps/bootstrap-horizon/master/screenshots/bootstrap-horizon.gif)
 
 Installation
 ------------
