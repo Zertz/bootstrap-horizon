@@ -1,6 +1,6 @@
 bootstrap-horizon
 =================
-Boostrap 3 rows with inline, horizontally scrolling columns. Inspired by [Ravimallaya @ StackOverflow](http://stackoverflow.com/questions/20332830/bootstrap-3-horizontal-scrollable-row-website-design/20335239#20335239)
+Boostrap 3 rows with inline, horizontally scrolling columns. Inspired by [Ravimallya @ StackOverflow](http://stackoverflow.com/questions/20332830/bootstrap-3-horizontal-scrollable-row-website-design/20335239#20335239)
 
 Example
 -------
