@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-horizon",
+  "version": "0.1.0",
+  "description": "Boostrap 3 rows with inline, horizontally scrolling columns",
+  "main": "bootstrap-horizon.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FluidApps/bootstrap-horizon.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "horizontal",
+    "scroll",
+    "row"
+  ],
+  "author": "Pier-Luc Gendreau <pierluc@fluidapps.ca> (https://fluidapps.ca)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FluidApps/bootstrap-horizon/issues"
+  },
+  "homepage": "https://github.com/FluidApps/bootstrap-horizon#readme"
+}
