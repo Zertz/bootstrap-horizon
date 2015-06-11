@@ -1,4 +1,4 @@
-bootstrap-horizon
+bootstrap-horizon [![bower package](https://badge.fury.io/bo/bootstrap-horizon.svg)](http://badge.fury.io/bo/bootstrap-horizon) [![npm version](https://badge.fury.io/js/bootstrap-horizon.svg)](http://badge.fury.io/js/bootstrap-horizon)
 =================
 Boostrap 3 rows with inline, horizontally scrolling columns. Inspired by [Ravimallya @ StackOverflow](http://stackoverflow.com/questions/20332830/bootstrap-3-horizontal-scrollable-row-website-design/20335239#20335239)
 
