@@ -5,7 +5,7 @@
   "main": "bootstrap-horizon.css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FluidApps/bootstrap-horizon.git"
+    "url": "git+https://github.com/Zertz/bootstrap-horizon.git"
   },
   "keywords": [
     "bootstrap",
@@ -13,10 +13,10 @@
     "scroll",
     "row"
   ],
-  "author": "Pier-Luc Gendreau <pierluc@fluidapps.ca> (https://fluidapps.ca)",
+  "author": "Pier-Luc Gendreau",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FluidApps/bootstrap-horizon/issues"
+    "url": "https://github.com/Zertz/bootstrap-horizon/issues"
   },
-  "homepage": "https://github.com/FluidApps/bootstrap-horizon#readme"
+  "homepage": "https://github.com/Zertz/bootstrap-horizon#readme"
 }
