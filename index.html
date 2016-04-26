@@ -25,12 +25,7 @@
 
 <p>Boostrap 3 rows with inline, horizontally scrolling columns. Inspired by <a href="http://stackoverflow.com/questions/20332830/bootstrap-3-horizontal-scrollable-row-website-design/20335239#20335239">Ravimallya @ StackOverflow</a></p>
 
-<h2>
-<a id="example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example</h2>
-
-<p>This <code>.well</code> fills the viewport and has a <code>.row.row-horizon</code> inside with a bunch of <code>.col-*-6</code>.</p>
-
-
+<p><a href="https://jsfiddle.net/azu9mf8d/2/">Live example</a></p>
 
 <h2>
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
@@ -52,18 +47,25 @@
 
 <p>Include bootstrap-horizon.css <em>after</em> bootstrap.css</p>
 
-<pre><code>&lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap.min.css"&gt;
+<pre><code>&lt;link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"&gt;
 &lt;link rel="stylesheet" href="/bower_components/bootstrap-horizon/bootstrap-horizon.css"&gt;
 </code></pre>
 
-<p>Add the <code>.row-horizon</code> class to <code>.rows</code> that require horizontal scrolling. In order to improve the UX, bootstrap-horizon overrides bootstrap's <code>.col-*-*</code> classes to make the baseline width 90% instead of 100% which allows for a small portion of the last column to be displayed.</p>
+<p>Add the <code>.row-horizon</code> class to rows that require horizontal scrolling. In order to improve the UX, bootstrap-horizon overrides bootstrap's <code>.col-*-*</code> classes to make the baseline width 90% instead of 100% which allows for a small portion of the last column to be displayed.</p>
 
-<pre><code>&lt;div class="row row-horizon"&gt;
-  &lt;div class="col-xs-6 col-sm-4 col-md-3 col-lg-2"&gt;
-    ...
-  &lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>well<span class="pl-pds">"</span></span>&gt;
+  &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>row row-horizon<span class="pl-pds">"</span></span>&gt;
+    &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>col-xs-6<span class="pl-pds">"</span></span>&gt;
+      &lt;<span class="pl-ent">p</span>&gt;This content is very, very, very, very, very, very, very wide!&lt;/<span class="pl-ent">p</span>&gt;
+    &lt;/<span class="pl-ent">div</span>&gt;
+    &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>col-xs-6<span class="pl-pds">"</span></span>&gt;
+      &lt;<span class="pl-ent">p</span>&gt;This content is very, very, very, very, very, very, very wide!&lt;/<span class="pl-ent">p</span>&gt;
+    &lt;/<span class="pl-ent">div</span>&gt;
+    &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>col-xs-6<span class="pl-pds">"</span></span>&gt;
+      &lt;<span class="pl-ent">p</span>&gt;This content is very, very, very, very, very, very, very wide!&lt;/<span class="pl-ent">p</span>&gt;
+    &lt;/<span class="pl-ent">div</span>&gt;
+  &lt;/<span class="pl-ent">div</span>&gt;
+&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
 
 <h2>
 <a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
