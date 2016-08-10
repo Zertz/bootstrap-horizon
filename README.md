@@ -25,7 +25,7 @@ Usage
 Include bootstrap-horizon.css *after* bootstrap.css
 
 ```
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="/bower_components/bootstrap-horizon/bootstrap-horizon.css">
 ```
 
