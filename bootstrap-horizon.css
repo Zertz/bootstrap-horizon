@@ -2,6 +2,7 @@
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
 }
 .row-horizon > [class*="col-lg"], .row-horizon > [class*="col-md"], .row-horizon > [class*="col-sm"], .row-horizon > [class*="col-xs"] {
   float: none;
