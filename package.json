@@ -3,6 +3,10 @@
   "version": "0.1.1",
   "description": "Boostrap 3 rows with inline, horizontally scrolling columns",
   "main": "bootstrap-horizon.css",
+  "scripts": {
+    "build": "npm run minify",
+    "minify": "cleancss -o dist/bootstrap-horizon.min.css src/bootstrap-horizon.css"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Zertz/bootstrap-horizon.git"
@@ -18,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Zertz/bootstrap-horizon/issues"
   },
-  "homepage": "https://github.com/Zertz/bootstrap-horizon#readme"
+  "homepage": "https://github.com/Zertz/bootstrap-horizon#readme",
+  "devDependencies": {
+    "clean-css": "^3.4.20"
+  }
 }

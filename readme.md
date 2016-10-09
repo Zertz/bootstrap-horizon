@@ -25,8 +25,8 @@ Usage
 Include bootstrap-horizon.css *after* bootstrap.css
 
 ```
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="/bower_components/bootstrap-horizon/bootstrap-horizon.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="/bootstrap-horizon/dist/bootstrap-horizon.min.css">
 ```
 
 Add the `.row-horizon` class to rows that require horizontal scrolling. In order to improve the UX, bootstrap-horizon overrides bootstrap's `.col-*-*` classes to make the baseline width 90% instead of 100% which allows for a small portion of the last column to be displayed.
