@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-horizon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Boostrap 3 rows with inline, horizontally scrolling columns",
   "main": "bootstrap-horizon.css",
   "repository": {
